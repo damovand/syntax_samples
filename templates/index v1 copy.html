@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Items List</title>
+    <style>
+        table { border-collapse: collapse; width: 50%; }
+        th, td { border: 1px solid #ccc; padding: 4px; text-align: left; }
+        td { background-color: #d9e6f3; }
+        th { background-color: #f2f2f2; }
+    </style>
+    
+</head>
+<body>
+<h2>Selected Movies</h2>
+<div>
+    {{ table|safe }}
+</div>
+<p>
+    <a href="{{ url_for('add_item') }}">Add New Item</a> |
+    <a href="{{ url_for('bulk_load') }}">Bulk Load from CSV</a>
+</p>
+</body>
+</html>
+

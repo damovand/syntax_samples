@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Movies List</title>
+    <style>
+        table { border-collapse: collapse; width: 50%; }
+        th, td { border: 1px solid #ccc; padding: 4px; text-align: left; }
+        td { background-color: #d9e6f3; }
+        th { background-color: #f2f2f2; }
+    </style>
+    
+</head>
+<body>
+<h2>Selected Movies</h2>
+<table>
+        <thead>
+            <tr>
+                {% for col in columns %}
+                    <th>{{ col }}</th>
+                {% endfor %}
+            </tr>
+        </thead>
+        <tbody>
+            {% for row in rows %}
+                <tr>
+                    {% for col in columns %}
+                        <td>{{ row[col] }}</td>
+                    {% endfor %}
+                </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+<p>
+    <a href="{{ url_for('add_item') }}">Add New Item</a> |
+    <a href="{{ url_for('bulk_load') }}">Bulk Load from CSV</a>
+</p>
+</body>
+</html>
+
