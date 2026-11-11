@@ -16,40 +16,45 @@ api_key = os.getenv("OMDB_API_KEY")
 
 # Sample data (replace with DB query or file read)
 # Example DataFrame
+def merge_movie_data():
+    try:
+        if 'My_Movies_Detailed' in locals():
+            print("DataFrame exists in locals")
+        elif 'My_Movies_Detailed' in globals():
+            print("DataFrame exists in globals")
+        else:
+            print("DataFrame does not exist")
+            Movies = pd.read_csv("data/IMDB_top_1000_movie_sum_plot.csv")
+            Owned_Movies = pd.read_csv("data/My Movies.csv")
+    except FileNotFoundError as e:
+        print(f"Error loading data === Fix the error: {e}") 
+        exit()  
+    finally: 
+        print("Finished loading data")
+
+    # merge the two DataFrames on 'Title' to grab details from downloaded(from hugging face) movies dataset
+    Movies_merged = Owned_Movies.merge(Movies, on='Title', how='outer')
+    # filter the merged DataFrame to only include movies that are in the Owned_Movies DataFrame
+    My_Movies_Detailed = Movies_merged[Movies_merged['Title'].isin(Owned_Movies['Title'])]
+    #Movies_merged.to_csv('merged_Movies_Detailed.csv', encoding='utf-8', index=False)
+    # save the filtered DataFrame to a CSV file for future use in jupyter notebook
+    My_Movies_Detailed.to_csv('data/my_Movies_Detailed.csv', encoding='utf-8', index=False)
+    #print(Movies_merged.head(5))
+    '''
+    movie_details_missing = My_Movies_Detailed[(My_Movies_Detailed["Released_Year"].isna()) &
+        (My_Movies_Detailed["Genre"].isna()) &
+        (My_Movies_Detailed["Star1"].isna()) &
+        (My_Movies_Detailed["Director"].isna()) ]
+    movie_details_missing.to_csv('movie_details_missing.csv', encoding='utf-8', index=False)
+    print(" ==== Final ===")
+    '''
+    print(My_Movies_Detailed[['Title', 'Released_Year']].head(5))
+
 try:
-    if 'My_Movies_Detailed' in locals():
-        print("DataFrame exists in locals")
-    elif 'My_Movies_Detailed' in globals():
-        print("DataFrame exists in globals")
-    else:
-        print("DataFrame does not exist")
-        Movies = pd.read_csv("data/IMDB_top_1000_movie_sum_plot.csv")
-        Owned_Movies = pd.read_csv("data/My Movies.csv")
-except FileNotFoundError as e:
-    print(f"Error loading data === Fix the error: {e}") 
-    exit()
-finally: 
-    print("Finished loading data")
-
-    #Movies_merged = Movies.merge(Owned_Movies, on='Title', how='outer')
-Movies_merged = Owned_Movies.merge(Movies, on='Title', how='outer')
-
-My_Movies_Detailed = Movies_merged[Movies_merged['Title'].isin(Owned_Movies['Title'])]
-
-Movies_merged.to_csv('merged_Movies_Detailed.csv', encoding='utf-8', index=False)
-My_Movies_Detailed.to_csv('my_Movies_Detailed.csv', encoding='utf-8', index=False)
-#print(Movies_merged.head(5))
-
-movie_details_missing = My_Movies_Detailed[(My_Movies_Detailed["Released_Year"].isna()) &
-(My_Movies_Detailed["Genre"].isna()) &
-(My_Movies_Detailed["Star1"].isna()) &
-(My_Movies_Detailed["Director"].isna()) ]
-
-print(" ==== Final ===")
-print(My_Movies_Detailed[['Title', 'Released_Year']].head(5))
-
-movie_details_missing.to_csv('movie_details_missing.csv', encoding='utf-8', index=False)
-
+    My_Movies_Detailed = pd.read_csv('data/my_Movies_Detailed.csv')
+except FileNotFoundError:
+    merge_movie_data()
+    My_Movies_Detailed = pd.read_csv('data/my_Movies_Detailed.csv')
 # Convert DataFrame to list of dicts for Jinja2
 
 @app.route("/")
