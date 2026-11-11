@@ -1,8 +1,8 @@
 Title,Poster_Link,Released_Year,Certificate,Runtime,Genre,IMDB_Rating,Overview,Meta_score,Director,Star1,Star2,Star3,Star4,No_of_Votes,Gross
 12 Monkeys,,,,,,,,,,,,,,,
-2001: A Space Odyssey,"https://m.media-amazon.com/images/M/MV5BMmNlYzRiNDctZWNhMi00MzI4LThkZTctMTUzMmZkMmFmNThmXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_UX67_CR0,0,67,98_AL_.jpg",1968,U,149 min,"Adventure, Sci-Fi",8.3,"After discovering a mysterious artifact buried beneath the Lunar surface, mankind sets off on a quest to find its origins with help from intelligent supercomputer H.A.L. 9000.",84,Stanley Kubrick,Keir Dullea,Gary Lockwood,William Sylvester,Daniel Richter,603517,"56,954,992"
+2001: A Space Odyssey,"https://m.media-amazon.com/images/M/MV5BMmNlYzRiNDctZWNhMi00MzI4LThkZTctMTUzMmZkMmFmNThmXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_UX67_CR0,0,67,98_AL_.jpg",1968,U,149 min,"Adventure, Sci-Fi",8.3,"After discovering a mysterious artifact buried beneath the Lunar surface, mankind sets off on a quest to find its origins with help from intelligent supercomputer H.A.L. 9000.",84.0,Stanley Kubrick,Keir Dullea,Gary Lockwood,William Sylvester,Daniel Richter,603517.0,"56,954,992"
 28 Days,,,,,,,,,,,,,,,
-3:10 to Yuma,"https://m.media-amazon.com/images/M/MV5BODE0NTcxNTQzNF5BMl5BanBnXkFtZTcwMzczOTIzMw@@._V1_UX67_CR0,0,67,98_AL_.jpg",2007,A,122 min,"Action, Crime, Drama",7.7,A small-time rancher agrees to hold a captured outlaw who's awaiting a train to go to court in Yuma. A battle of wills ensues as the outlaw tries to psych out the rancher.,76,James Mangold,Russell Crowe,Christian Bale,Ben Foster,Logan Lerman,288797,"53,606,916"
+3:10 to Yuma,"https://m.media-amazon.com/images/M/MV5BODE0NTcxNTQzNF5BMl5BanBnXkFtZTcwMzczOTIzMw@@._V1_UX67_CR0,0,67,98_AL_.jpg",2007,A,122 min,"Action, Crime, Drama",7.7,A small-time rancher agrees to hold a captured outlaw who's awaiting a train to go to court in Yuma. A battle of wills ensues as the outlaw tries to psych out the rancher.,76.0,James Mangold,Russell Crowe,Christian Bale,Ben Foster,Logan Lerman,288797.0,"53,606,916"
 A Bug's  Life,,,,,,,,,,,,,,,
 A Civil Action,,,,,,,,,,,,,,,
 A Haunting in Venice,,,,,,,,,,,,,,,
@@ -11,25 +11,25 @@ A knight's Tale,,,,,,,,,,,,,,,
 A.I. Artificial Intelligence,,,,,,,,,,,,,,,
 Abbott and Costello Meet Frankenstein,,,,,,,,,,,,,,,
 About A Boy,,,,,,,,,,,,,,,
-Alien,"https://m.media-amazon.com/images/M/MV5BMmQ2MmU3NzktZjAxOC00ZDZhLTk4YzEtMDMyMzcxY2IwMDAyXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_UX67_CR0,0,67,98_AL_.jpg",1979,R,117 min,"Horror, Sci-Fi",8.4,"After a space merchant vessel receives an unknown transmission as a distress call, one of the crew is attacked by a mysterious life form and they soon realize that its life cycle has merely begun.",89,Ridley Scott,Sigourney Weaver,Tom Skerritt,John Hurt,Veronica Cartwright,787806,"78,900,000"
-Aliens,"https://m.media-amazon.com/images/M/MV5BZGU2OGY5ZTYtMWNhYy00NjZiLWI0NjUtZmNhY2JhNDRmODU3XkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_UX67_CR0,0,67,98_AL_.jpg",1986,U,137 min,"Action, Adventure, Sci-Fi",8.3,"Fifty-seven years after surviving an apocalyptic attack aboard her space vessel by merciless space creatures, Officer Ripley awakens from hyper-sleep and tries to warn anyone who will listen about the predators.",84,James Cameron,Sigourney Weaver,Michael Biehn,Carrie Henn,Paul Reiser,652719,"85,160,248"
-Amadeus,"https://m.media-amazon.com/images/M/MV5BNWJlNzUzNGMtYTAwMS00ZjI2LWFmNWQtODcxNWUxODA5YmU1XkEyXkFqcGdeQXVyNTIzOTk5ODM@._V1_UX67_CR0,0,67,98_AL_.jpg",1984,R,160 min,"Biography, Drama, History",8.3,"The life, success and troubles of Wolfgang Amadeus Mozart, as told by Antonio Salieri, the contemporaneous composer who was insanely jealous of Mozart's talent and claimed to have murdered him.",88,Milos Forman,F. Murray Abraham,Tom Hulce,Elizabeth Berridge,Roy Dotrice,369007,"51,973,029"
+Alien,"https://m.media-amazon.com/images/M/MV5BMmQ2MmU3NzktZjAxOC00ZDZhLTk4YzEtMDMyMzcxY2IwMDAyXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_UX67_CR0,0,67,98_AL_.jpg",1979,R,117 min,"Horror, Sci-Fi",8.4,"After a space merchant vessel receives an unknown transmission as a distress call, one of the crew is attacked by a mysterious life form and they soon realize that its life cycle has merely begun.",89.0,Ridley Scott,Sigourney Weaver,Tom Skerritt,John Hurt,Veronica Cartwright,787806.0,"78,900,000"
+Aliens,"https://m.media-amazon.com/images/M/MV5BZGU2OGY5ZTYtMWNhYy00NjZiLWI0NjUtZmNhY2JhNDRmODU3XkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_UX67_CR0,0,67,98_AL_.jpg",1986,U,137 min,"Action, Adventure, Sci-Fi",8.3,"Fifty-seven years after surviving an apocalyptic attack aboard her space vessel by merciless space creatures, Officer Ripley awakens from hyper-sleep and tries to warn anyone who will listen about the predators.",84.0,James Cameron,Sigourney Weaver,Michael Biehn,Carrie Henn,Paul Reiser,652719.0,"85,160,248"
+Amadeus,"https://m.media-amazon.com/images/M/MV5BNWJlNzUzNGMtYTAwMS00ZjI2LWFmNWQtODcxNWUxODA5YmU1XkEyXkFqcGdeQXVyNTIzOTk5ODM@._V1_UX67_CR0,0,67,98_AL_.jpg",1984,R,160 min,"Biography, Drama, History",8.3,"The life, success and troubles of Wolfgang Amadeus Mozart, as told by Antonio Salieri, the contemporaneous composer who was insanely jealous of Mozart's talent and claimed to have murdered him.",88.0,Milos Forman,F. Murray Abraham,Tom Hulce,Elizabeth Berridge,Roy Dotrice,369007.0,"51,973,029"
 American Hustle,,,,,,,,,,,,,,,
 And then there were none,,,,,,,,,,,,,,,
 Angel Heart,,,,,,,,,,,,,,,
 Animal House,,,,,,,,,,,,,,,
 Antz,,,,,,,,,,,,,,,
-Apollo 13,"https://m.media-amazon.com/images/M/MV5BNjEzYjJmNzgtNDkwNy00MTQ4LTlmMWMtNzA4YjE2NjI0ZDg4XkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_UX67_CR0,0,67,98_AL_.jpg",PG,U,140 min,"Adventure, Drama, History",7.6,NASA must devise a strategy to return Apollo 13 to Earth safely after the spacecraft undergoes massive internal damage putting the lives of the three astronauts on board in jeopardy.,77,Ron Howard,Tom Hanks,Bill Paxton,Kevin Bacon,Gary Sinise,269197,"173,837,933"
+Apollo 13,"https://m.media-amazon.com/images/M/MV5BNjEzYjJmNzgtNDkwNy00MTQ4LTlmMWMtNzA4YjE2NjI0ZDg4XkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_UX67_CR0,0,67,98_AL_.jpg",PG,U,140 min,"Adventure, Drama, History",7.6,NASA must devise a strategy to return Apollo 13 to Earth safely after the spacecraft undergoes massive internal damage putting the lives of the three astronauts on board in jeopardy.,77.0,Ron Howard,Tom Hanks,Bill Paxton,Kevin Bacon,Gary Sinise,269197.0,"173,837,933"
 Arctic Void,,,,,,,,,,,,,,,
 Arthur,,,,,,,,,,,,,,,
 Bagdad Café,,,,,,,,,,,,,,,
 Bambi,,,,,,,,,,,,,,,
-Batman Begins,"https://m.media-amazon.com/images/M/MV5BOTY4YjI2N2MtYmFlMC00ZjcyLTg3YjEtMDQyM2ZjYzQ5YWFkXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_UX67_CR0,0,67,98_AL_.jpg",2005,UA,140 min,"Action, Adventure",8.2,"After training with his mentor, Batman begins his fight to free crime-ridden Gotham City from corruption.",70,Christopher Nolan,Christian Bale,Michael Caine,Ken Watanabe,Liam Neeson,1308302,"206,852,432"
+Batman Begins,"https://m.media-amazon.com/images/M/MV5BOTY4YjI2N2MtYmFlMC00ZjcyLTg3YjEtMDQyM2ZjYzQ5YWFkXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_UX67_CR0,0,67,98_AL_.jpg",2005,UA,140 min,"Action, Adventure",8.2,"After training with his mentor, Batman begins his fight to free crime-ridden Gotham City from corruption.",70.0,Christopher Nolan,Christian Bale,Michael Caine,Ken Watanabe,Liam Neeson,1308302.0,"206,852,432"
 Batman Forever,,,,,,,,,,,,,,,
 Beetlejuice,,,,,,,,,,,,,,,
-Big Fish,"https://m.media-amazon.com/images/M/MV5BMmU3NzIyODctYjVhOC00NzBmLTlhNWItMzBlODEwZTlmMjUzXkEyXkFqcGdeQXVyNTIzOTk5ODM@._V1_UX67_CR0,0,67,98_AL_.jpg",2003,U,125 min,"Adventure, Drama, Fantasy",8,A frustrated son tries to determine the fact from fiction in his dying father's life.,58,Tim Burton,Ewan McGregor,Albert Finney,Billy Crudup,Jessica Lange,415218,"66,257,002"
+Big Fish,"https://m.media-amazon.com/images/M/MV5BMmU3NzIyODctYjVhOC00NzBmLTlhNWItMzBlODEwZTlmMjUzXkEyXkFqcGdeQXVyNTIzOTk5ODM@._V1_UX67_CR0,0,67,98_AL_.jpg",2003,U,125 min,"Adventure, Drama, Fantasy",8.0,A frustrated son tries to determine the fact from fiction in his dying father's life.,58.0,Tim Burton,Ewan McGregor,Albert Finney,Billy Crudup,Jessica Lange,415218.0,"66,257,002"
 Bishop's Wife,,,,,,,,,,,,,,,
-Blade Runner,"https://m.media-amazon.com/images/M/MV5BNzQzMzJhZTEtOWM4NS00MTdhLTg0YjgtMjM4MDRkZjUwZDBlXkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_UX67_CR0,0,67,98_AL_.jpg",1982,UA,117 min,"Action, Sci-Fi, Thriller",8.1,"A blade runner must pursue and terminate four replicants who stole a ship in space, and have returned to Earth to find their creator.",84,Ridley Scott,Harrison Ford,Rutger Hauer,Sean Young,Edward James Olmos,693827,"32,868,943"
+Blade Runner,"https://m.media-amazon.com/images/M/MV5BNzQzMzJhZTEtOWM4NS00MTdhLTg0YjgtMjM4MDRkZjUwZDBlXkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_UX67_CR0,0,67,98_AL_.jpg",1982,UA,117 min,"Action, Sci-Fi, Thriller",8.1,"A blade runner must pursue and terminate four replicants who stole a ship in space, and have returned to Earth to find their creator.",84.0,Ridley Scott,Harrison Ford,Rutger Hauer,Sean Young,Edward James Olmos,693827.0,"32,868,943"
 Body Heat,,,,,,,,,,,,,,,
 Boys Are Back,,,,,,,,,,,,,,,
 Brotherhood of the Wolf,,,,,,,,,,,,,,,
@@ -45,7 +45,7 @@ Contagion,,,,,,,,,,,,,,,
 Corner Office,,,,,,,,,,,,,,,
 Crocodile Hunter,,,,,,,,,,,,,,,
 Cursed,,,,,,,,,,,,,,,
-Dark City,"https://m.media-amazon.com/images/M/MV5BMGExOGExM2UtNWM5ZS00OWEzLTllNzYtM2NlMTJlYjBlZTJkXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_UX67_CR0,0,67,98_AL_.jpg",1998,A,100 min,"Mystery, Sci-Fi, Thriller",7.6,"A man struggles with memories of his past, which include a wife he cannot remember and a nightmarish world no one else ever seems to wake up from.",66,Alex Proyas,Rufus Sewell,Kiefer Sutherland,Jennifer Connelly,William Hurt,187927,"14,378,331"
+Dark City,"https://m.media-amazon.com/images/M/MV5BMGExOGExM2UtNWM5ZS00OWEzLTllNzYtM2NlMTJlYjBlZTJkXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_UX67_CR0,0,67,98_AL_.jpg",1998,A,100 min,"Mystery, Sci-Fi, Thriller",7.6,"A man struggles with memories of his past, which include a wife he cannot remember and a nightmarish world no one else ever seems to wake up from.",66.0,Alex Proyas,Rufus Sewell,Kiefer Sutherland,Jennifer Connelly,William Hurt,187927.0,"14,378,331"
 Dark Knight,,,,,,,,,,,,,,,
 Dark Shadows,,,,,,,,,,,,,,,
 Dark Valley,,,,,,,,,,,,,,,
@@ -59,15 +59,15 @@ Dracula Untold,,,,,,,,,,,,,,,
 Dressmaker,,,,,,,,,,,,,,,
 Dune ,,,,,,,,,,,,,,,
 Dune Part Two,,,,,,,,,,,,,,,
-Dunkirk,"https://m.media-amazon.com/images/M/MV5BN2YyZjQ0NTEtNzU5MS00NGZkLTg0MTEtYzJmMWY3MWRhZjM2XkEyXkFqcGdeQXVyMDA4NzMyOA@@._V1_UX67_CR0,0,67,98_AL_.jpg",2017,UA,106 min,"Action, Drama, History",7.8,"Allied soldiers from Belgium, the British Empire, and France are surrounded by the German Army and evacuated during a fierce battle in World War II.",94,Christopher Nolan,Fionn Whitehead,Barry Keoghan,Mark Rylance,Tom Hardy,555092,"188,373,161"
-E.T. the Extra-Terrestrial,"https://m.media-amazon.com/images/M/MV5BMTQ2ODFlMDAtNzdhOC00ZDYzLWE3YTMtNDU4ZGFmZmJmYTczXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_UX67_CR0,0,67,98_AL_.jpg",1982,U,115 min,"Family, Sci-Fi",7.8,A troubled child summons the courage to help a friendly alien escape Earth and return to his home world.,91,Steven Spielberg,Henry Thomas,Drew Barrymore,Peter Coyote,Dee Wallace,372490,"435,110,554"
+Dunkirk,"https://m.media-amazon.com/images/M/MV5BN2YyZjQ0NTEtNzU5MS00NGZkLTg0MTEtYzJmMWY3MWRhZjM2XkEyXkFqcGdeQXVyMDA4NzMyOA@@._V1_UX67_CR0,0,67,98_AL_.jpg",2017,UA,106 min,"Action, Drama, History",7.8,"Allied soldiers from Belgium, the British Empire, and France are surrounded by the German Army and evacuated during a fierce battle in World War II.",94.0,Christopher Nolan,Fionn Whitehead,Barry Keoghan,Mark Rylance,Tom Hardy,555092.0,"188,373,161"
+E.T. the Extra-Terrestrial,"https://m.media-amazon.com/images/M/MV5BMTQ2ODFlMDAtNzdhOC00ZDYzLWE3YTMtNDU4ZGFmZmJmYTczXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_UX67_CR0,0,67,98_AL_.jpg",1982,U,115 min,"Family, Sci-Fi",7.8,A troubled child summons the courage to help a friendly alien escape Earth and return to his home world.,91.0,Steven Spielberg,Henry Thomas,Drew Barrymore,Peter Coyote,Dee Wallace,372490.0,"435,110,554"
 Eight Below,,,,,,,,,,,,,,,
 Elizabeth,,,,,,,,,,,,,,,
 Employee of the Month,,,,,,,,,,,,,,,
 Endless,,,,,,,,,,,,,,,
 Eternal Sunshine of the spotless mind,,,,,,,,,,,,,,,
-Exorcist,,1973,,,,,,,,,,,,,
-Fantasia,"https://m.media-amazon.com/images/M/MV5BMjAxMTI1Njk3OF5BMl5BanBnXkFtZTgwNjkzODk4NTE@._V1_UX67_CR0,0,67,98_AL_.jpg",1940,G,125 min,"Animation, Family, Fantasy",7.7,A collection of animated interpretations of great works of Western classical music.,96,James Algar,Samuel Armstrong,Ford Beebe Jr.,Norman Ferguson,David Hand,88662,"76,408,097"
+Exorcist,,,,,,,,,,,,,,,
+Fantasia,"https://m.media-amazon.com/images/M/MV5BMjAxMTI1Njk3OF5BMl5BanBnXkFtZTgwNjkzODk4NTE@._V1_UX67_CR0,0,67,98_AL_.jpg",1940,G,125 min,"Animation, Family, Fantasy",7.7,A collection of animated interpretations of great works of Western classical music.,96.0,James Algar,Samuel Armstrong,Ford Beebe Jr.,Norman Ferguson,David Hand,88662.0,"76,408,097"
 Fifth Element,,,,,,,,,,,,,,,
 First Man,,,,,,,,,,,,,,,
 Fly Away Home,,,,,,,,,,,,,,,
@@ -80,47 +80,47 @@ Galaxy Quest,,,,,,,,,,,,,,,
 "Gentlemen, the",,,,,,,,,,,,,,,
 Ghost,,,,,,,,,,,,,,,
 Ghost Breakers,,,,,,,,,,,,,,,
-Ghostbusters,"https://m.media-amazon.com/images/M/MV5BMTkxMjYyNzgwMl5BMl5BanBnXkFtZTgwMTE3MjYyMTE@._V1_UX67_CR0,0,67,98_AL_.jpg",1984,UA,105 min,"Action, Comedy, Fantasy",7.8,Three former parapsychology professors set up shop as a unique ghost removal service.,71,Ivan Reitman,Bill Murray,Dan Aykroyd,Sigourney Weaver,Harold Ramis,355413,"238,632,124"
+Ghostbusters,"https://m.media-amazon.com/images/M/MV5BMTkxMjYyNzgwMl5BMl5BanBnXkFtZTgwMTE3MjYyMTE@._V1_UX67_CR0,0,67,98_AL_.jpg",1984,UA,105 min,"Action, Comedy, Fantasy",7.8,Three former parapsychology professors set up shop as a unique ghost removal service.,71.0,Ivan Reitman,Bill Murray,Dan Aykroyd,Sigourney Weaver,Harold Ramis,355413.0,"238,632,124"
 Godfather,,,,,,,,,,,,,,,
 Gorky Park,,,,,,,,,,,,,,,
-Groundhog Day,"https://m.media-amazon.com/images/M/MV5BZWIxNzM5YzQtY2FmMS00Yjc3LWI1ZjUtNGVjMjMzZTIxZTIxXkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_UX67_CR0,0,67,98_AL_.jpg",1993,U,101 min,"Comedy, Fantasy, Romance",8,A weatherman finds himself inexplicably living the same day over and over again.,72,Harold Ramis,Bill Murray,Andie MacDowell,Chris Elliott,Stephen Tobolowsky,577991,"70,906,973"
-Hachi: A Dog's Tale,"https://m.media-amazon.com/images/M/MV5BNzE4NDg5OWMtMzg3NC00ZDRjLTllMDMtZTRjNWZmNjBmMGZlXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_UY98_CR1,0,67,98_AL_.jpg",2009,G,93 min,"Biography, Drama, Family",8.1,A college professor bonds with an abandoned dog he takes into his home.,,Lasse Hallström,Richard Gere,Joan Allen,Cary-Hiroyuki Tagawa,Sarah Roemer,253575,
-Halloween,"https://m.media-amazon.com/images/M/MV5BNzk1OGU2NmMtNTdhZC00NjdlLWE5YTMtZTQ0MGExZTQzOGQyXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_UX67_CR0,0,67,98_AL_.jpg",1978,A,91 min,"Horror, Thriller",7.7,"Fifteen years after murdering his sister on Halloween night 1963, Michael Myers escapes from a mental hospital and returns to the small town of Haddonfield, Illinois to kill again.",87,John Carpenter,Donald Pleasence,Jamie Lee Curtis,Tony Moran,Nancy Kyes,233106,"47,000,000"
+Groundhog Day,"https://m.media-amazon.com/images/M/MV5BZWIxNzM5YzQtY2FmMS00Yjc3LWI1ZjUtNGVjMjMzZTIxZTIxXkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_UX67_CR0,0,67,98_AL_.jpg",1993,U,101 min,"Comedy, Fantasy, Romance",8.0,A weatherman finds himself inexplicably living the same day over and over again.,72.0,Harold Ramis,Bill Murray,Andie MacDowell,Chris Elliott,Stephen Tobolowsky,577991.0,"70,906,973"
+Hachi: A Dog's Tale,"https://m.media-amazon.com/images/M/MV5BNzE4NDg5OWMtMzg3NC00ZDRjLTllMDMtZTRjNWZmNjBmMGZlXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_UY98_CR1,0,67,98_AL_.jpg",2009,G,93 min,"Biography, Drama, Family",8.1,A college professor bonds with an abandoned dog he takes into his home.,,Lasse Hallström,Richard Gere,Joan Allen,Cary-Hiroyuki Tagawa,Sarah Roemer,253575.0,
+Halloween,"https://m.media-amazon.com/images/M/MV5BNzk1OGU2NmMtNTdhZC00NjdlLWE5YTMtZTQ0MGExZTQzOGQyXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_UX67_CR0,0,67,98_AL_.jpg",1978,A,91 min,"Horror, Thriller",7.7,"Fifteen years after murdering his sister on Halloween night 1963, Michael Myers escapes from a mental hospital and returns to the small town of Haddonfield, Illinois to kill again.",87.0,John Carpenter,Donald Pleasence,Jamie Lee Curtis,Tony Moran,Nancy Kyes,233106.0,"47,000,000"
 Harry Potter and the Chamber of Secrets,,,,,,,,,,,,,,,
 Harry Potter and the Deathly Hallows - Part 1,,,,,,,,,,,,,,,
-Harry Potter and the Half-Blood Prince,"https://m.media-amazon.com/images/M/MV5BNzU3NDg4NTAyNV5BMl5BanBnXkFtZTcwOTg2ODg1Mg@@._V1_UX67_CR0,0,67,98_AL_.jpg",2009,UA,153 min,"Action, Adventure, Family",7.6,"As Harry Potter begins his sixth year at Hogwarts, he discovers an old book marked as ""the property of the Half-Blood Prince"" and begins to learn more about Lord Voldemort's dark past.",78,David Yates,Daniel Radcliffe,Emma Watson,Rupert Grint,Michael Gambon,474827,"301,959,197"
+Harry Potter and the Half-Blood Prince,"https://m.media-amazon.com/images/M/MV5BNzU3NDg4NTAyNV5BMl5BanBnXkFtZTcwOTg2ODg1Mg@@._V1_UX67_CR0,0,67,98_AL_.jpg",2009,UA,153 min,"Action, Adventure, Family",7.6,"As Harry Potter begins his sixth year at Hogwarts, he discovers an old book marked as ""the property of the Half-Blood Prince"" and begins to learn more about Lord Voldemort's dark past.",78.0,David Yates,Daniel Radcliffe,Emma Watson,Rupert Grint,Michael Gambon,474827.0,"301,959,197"
 Harry Potter and the Order of the Phoenix,,,,,,,,,,,,,,,
-Harry Potter and the Prisoner of Azkaban,"https://m.media-amazon.com/images/M/MV5BMTY4NTIwODg0N15BMl5BanBnXkFtZTcwOTc0MjEzMw@@._V1_UX67_CR0,0,67,98_AL_.jpg",2004,U,142 min,"Adventure, Family, Fantasy",7.9,"Harry Potter, Ron and Hermione return to Hogwarts School of Witchcraft and Wizardry for their third year of study, where they delve into the mystery surrounding an escaped prisoner who poses a dangerous threat to the young wizard.",82,Alfonso Cuarón,Daniel Radcliffe,Emma Watson,Rupert Grint,Richard Griffiths,552493,"249,358,727"
-Harry Potter and the Sorcerer's Stone,"https://m.media-amazon.com/images/M/MV5BNjQ3NWNlNmQtMTE5ZS00MDdmLTlkZjUtZTBlM2UxMGFiMTU3XkEyXkFqcGdeQXVyNjUwNzk3NDc@._V1_UX67_CR0,0,67,98_AL_.jpg",2001,U,152 min,"Adventure, Family, Fantasy",7.6,"An orphaned boy enrolls in a school of wizardry, where he learns the truth about himself, his family and the terrible evil that haunts the magical world.",64,Chris Columbus,Daniel Radcliffe,Rupert Grint,Richard Harris,Maggie Smith,658185,"317,575,550"
+Harry Potter and the Prisoner of Azkaban,"https://m.media-amazon.com/images/M/MV5BMTY4NTIwODg0N15BMl5BanBnXkFtZTcwOTc0MjEzMw@@._V1_UX67_CR0,0,67,98_AL_.jpg",2004,U,142 min,"Adventure, Family, Fantasy",7.9,"Harry Potter, Ron and Hermione return to Hogwarts School of Witchcraft and Wizardry for their third year of study, where they delve into the mystery surrounding an escaped prisoner who poses a dangerous threat to the young wizard.",82.0,Alfonso Cuarón,Daniel Radcliffe,Emma Watson,Rupert Grint,Richard Griffiths,552493.0,"249,358,727"
+Harry Potter and the Sorcerer's Stone,"https://m.media-amazon.com/images/M/MV5BNjQ3NWNlNmQtMTE5ZS00MDdmLTlkZjUtZTBlM2UxMGFiMTU3XkEyXkFqcGdeQXVyNjUwNzk3NDc@._V1_UX67_CR0,0,67,98_AL_.jpg",2001,U,152 min,"Adventure, Family, Fantasy",7.6,"An orphaned boy enrolls in a school of wizardry, where he learns the truth about himself, his family and the terrible evil that haunts the magical world.",64.0,Chris Columbus,Daniel Radcliffe,Rupert Grint,Richard Harris,Maggie Smith,658185.0,"317,575,550"
 Haunting,,,,,,,,,,,,,,,
 Hobbit : The Desolation of Smaug 2013,,,,,,,,,,,,,,,
 Hobbit:  An Unexpected Journey,,,,,,,,,,,,,,,
 Hobbit: The Battle of the Five Armies,,,,,,,,,,,,,,,
 Hocus Pocus,,,,,,,,,,,,,,,
-Home Alone,"https://m.media-amazon.com/images/M/MV5BMzFkM2YwOTQtYzk2Mi00N2VlLWE3NTItN2YwNDg1YmY0ZDNmXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_UX67_CR0,0,67,98_AL_.jpg",1990,U,103 min,"Comedy, Family",7.6,An eight-year-old troublemaker must protect his house from a pair of burglars when he is accidentally left home alone by his family during Christmas vacation.,63,Chris Columbus,Macaulay Culkin,Joe Pesci,Daniel Stern,John Heard,488817,"285,761,243"
-Hot Fuzz,"https://m.media-amazon.com/images/M/MV5BMzg4MDJhMDMtYmJiMS00ZDZmLThmZWUtYTMwZDM1YTc5MWE2XkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_UX67_CR0,0,67,98_AL_.jpg",2007,UA,121 min,"Action, Comedy, Mystery",7.8,A skilled London police officer is transferred to a small town with a dark secret.,81,Edgar Wright,Simon Pegg,Nick Frost,Martin Freeman,Bill Nighy,463466,"23,637,265"
+Home Alone,"https://m.media-amazon.com/images/M/MV5BMzFkM2YwOTQtYzk2Mi00N2VlLWE3NTItN2YwNDg1YmY0ZDNmXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_UX67_CR0,0,67,98_AL_.jpg",1990,U,103 min,"Comedy, Family",7.6,An eight-year-old troublemaker must protect his house from a pair of burglars when he is accidentally left home alone by his family during Christmas vacation.,63.0,Chris Columbus,Macaulay Culkin,Joe Pesci,Daniel Stern,John Heard,488817.0,"285,761,243"
+Hot Fuzz,"https://m.media-amazon.com/images/M/MV5BMzg4MDJhMDMtYmJiMS00ZDZmLThmZWUtYTMwZDM1YTc5MWE2XkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_UX67_CR0,0,67,98_AL_.jpg",2007,UA,121 min,"Action, Comedy, Mystery",7.8,A skilled London police officer is transferred to a small town with a dark secret.,81.0,Edgar Wright,Simon Pegg,Nick Frost,Martin Freeman,Bill Nighy,463466.0,"23,637,265"
 House on Haunted Hill,,,,,,,,,,,,,,,
-How to Train Your Dragon,"https://m.media-amazon.com/images/M/MV5BMjA5NDQyMjc2NF5BMl5BanBnXkFtZTcwMjg5ODcyMw@@._V1_UX67_CR0,0,67,98_AL_.jpg",2010,U,98 min,"Animation, Action, Adventure",8.1,"A hapless young Viking who aspires to hunt dragons becomes the unlikely friend of a young dragon himself, and learns there may be more to the creatures than he assumed.",75,Dean DeBlois,Chris Sanders,Jay Baruchel,Gerard Butler,Christopher Mintz-Plasse,666773,"217,581,231"
+How to Train Your Dragon,"https://m.media-amazon.com/images/M/MV5BMjA5NDQyMjc2NF5BMl5BanBnXkFtZTcwMjg5ODcyMw@@._V1_UX67_CR0,0,67,98_AL_.jpg",2010,U,98 min,"Animation, Action, Adventure",8.1,"A hapless young Viking who aspires to hunt dragons becomes the unlikely friend of a young dragon himself, and learns there may be more to the creatures than he assumed.",75.0,Dean DeBlois,Chris Sanders,Jay Baruchel,Gerard Butler,Christopher Mintz-Plasse,666773.0,"217,581,231"
 Howards End,,,,,,,,,,,,,,,
 Imaginarium of Doctor Parnassus,,,,,,,,,,,,,,,
 Immortal Beloved,,,,,,,,,,,,,,,
-Inception,"https://m.media-amazon.com/images/M/MV5BMjAxMzY3NjcxNF5BMl5BanBnXkFtZTcwNTI5OTM0Mw@@._V1_UX67_CR0,0,67,98_AL_.jpg",2010,UA,148 min,"Action, Adventure, Sci-Fi",8.8,A thief who steals corporate secrets through the use of dream-sharing technology is given the inverse task of planting an idea into the mind of a C.E.O.,74,Christopher Nolan,Leonardo DiCaprio,Joseph Gordon-Levitt,Elliot Page,Ken Watanabe,2067042,"292,576,195"
-Interstellar,"https://m.media-amazon.com/images/M/MV5BZjdkOTU3MDktN2IxOS00OGEyLWFmMjktY2FiMmZkNWIyODZiXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_UX67_CR0,0,67,98_AL_.jpg",2014,UA,169 min,"Adventure, Drama, Sci-Fi",8.6,A team of explorers travel through a wormhole in space in an attempt to ensure humanity's survival.,74,Christopher Nolan,Matthew McConaughey,Anne Hathaway,Jessica Chastain,Mackenzie Foy,1512360,"188,020,017"
-Invasion of the Body Snatchers,"https://m.media-amazon.com/images/M/MV5BYTExYjM3MDYtMzg4MC00MjU4LTljZjAtYzdlMTFmYTJmYTE4XkEyXkFqcGdeQXVyNTAyODkwOQ@@._V1_UX67_CR0,0,67,98_AL_.jpg",1956,Approved,80 min,"Drama, Horror, Sci-Fi",7.7,A small-town doctor learns that the population of his community is being replaced by emotionless alien duplicates.,92,Don Siegel,Kevin McCarthy,Dana Wynter,Larry Gates,King Donovan,44839,
-Invasion of the Body Snatchers,"https://m.media-amazon.com/images/M/MV5BYTExYjM3MDYtMzg4MC00MjU4LTljZjAtYzdlMTFmYTJmYTE4XkEyXkFqcGdeQXVyNTAyODkwOQ@@._V1_UX67_CR0,0,67,98_AL_.jpg",1956,Approved,80 min,"Drama, Horror, Sci-Fi",7.7,A small-town doctor learns that the population of his community is being replaced by emotionless alien duplicates.,92,Don Siegel,Kevin McCarthy,Dana Wynter,Larry Gates,King Donovan,44839,
+Inception,"https://m.media-amazon.com/images/M/MV5BMjAxMzY3NjcxNF5BMl5BanBnXkFtZTcwNTI5OTM0Mw@@._V1_UX67_CR0,0,67,98_AL_.jpg",2010,UA,148 min,"Action, Adventure, Sci-Fi",8.8,A thief who steals corporate secrets through the use of dream-sharing technology is given the inverse task of planting an idea into the mind of a C.E.O.,74.0,Christopher Nolan,Leonardo DiCaprio,Joseph Gordon-Levitt,Elliot Page,Ken Watanabe,2067042.0,"292,576,195"
+Interstellar,"https://m.media-amazon.com/images/M/MV5BZjdkOTU3MDktN2IxOS00OGEyLWFmMjktY2FiMmZkNWIyODZiXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_UX67_CR0,0,67,98_AL_.jpg",2014,UA,169 min,"Adventure, Drama, Sci-Fi",8.6,A team of explorers travel through a wormhole in space in an attempt to ensure humanity's survival.,74.0,Christopher Nolan,Matthew McConaughey,Anne Hathaway,Jessica Chastain,Mackenzie Foy,1512360.0,"188,020,017"
+Invasion of the Body Snatchers,"https://m.media-amazon.com/images/M/MV5BYTExYjM3MDYtMzg4MC00MjU4LTljZjAtYzdlMTFmYTJmYTE4XkEyXkFqcGdeQXVyNTAyODkwOQ@@._V1_UX67_CR0,0,67,98_AL_.jpg",1956,Approved,80 min,"Drama, Horror, Sci-Fi",7.7,A small-town doctor learns that the population of his community is being replaced by emotionless alien duplicates.,92.0,Don Siegel,Kevin McCarthy,Dana Wynter,Larry Gates,King Donovan,44839.0,
+Invasion of the Body Snatchers,"https://m.media-amazon.com/images/M/MV5BYTExYjM3MDYtMzg4MC00MjU4LTljZjAtYzdlMTFmYTJmYTE4XkEyXkFqcGdeQXVyNTAyODkwOQ@@._V1_UX67_CR0,0,67,98_AL_.jpg",1956,Approved,80 min,"Drama, Horror, Sci-Fi",7.7,A small-town doctor learns that the population of his community is being replaced by emotionless alien duplicates.,92.0,Don Siegel,Kevin McCarthy,Dana Wynter,Larry Gates,King Donovan,44839.0,
 Jack Ryan,,,,,,,,,,,,,,,
 Jacob's Ladder,,,,,,,,,,,,,,,
 Jagged Edge,,,,,,,,,,,,,,,
 John Wick,,,,,,,,,,,,,,,
 John Wick: Chapter 2 ,,,,,,,,,,,,,,,
 John Wick: Chapter 3 – Parabellum ,,,,,,,,,,,,,,,
-Jojo Rabbit,"https://m.media-amazon.com/images/M/MV5BZjU0Yzk2MzEtMjAzYy00MzY0LTg2YmItM2RkNzdkY2ZhN2JkXkEyXkFqcGdeQXVyNDg4NjY5OTQ@._V1_UX67_CR0,0,67,98_AL_.jpg",2019,UA,108 min,"Comedy, Drama, War",7.9,A young boy in Hitler's army finds out his mother is hiding a Jewish girl in their home.,58,Taika Waititi,Roman Griffin Davis,Thomasin McKenzie,Scarlett Johansson,Taika Waititi,297918,"349,555"
+Jojo Rabbit,"https://m.media-amazon.com/images/M/MV5BZjU0Yzk2MzEtMjAzYy00MzY0LTg2YmItM2RkNzdkY2ZhN2JkXkEyXkFqcGdeQXVyNDg4NjY5OTQ@._V1_UX67_CR0,0,67,98_AL_.jpg",2019,UA,108 min,"Comedy, Drama, War",7.9,A young boy in Hitler's army finds out his mother is hiding a Jewish girl in their home.,58.0,Taika Waititi,Roman Griffin Davis,Thomasin McKenzie,Scarlett Johansson,Taika Waititi,297918.0,"349,555"
 Kill or Cure,,,,,,,,,,,,,,,
 King's Speech,,,,,,,,,,,,,,,
 Lair of the White Worm,,,,,,,,,,,,,,,
-Lawrence of Arabia,"https://m.media-amazon.com/images/M/MV5BYWY5ZjhjNGYtZmI2Ny00ODM0LWFkNzgtZmI1YzA2N2MxMzA0XkEyXkFqcGdeQXVyNjUwNzk3NDc@._V1_UY98_CR0,0,67,98_AL_.jpg",1962,U,228 min,"Adventure, Biography, Drama",8.3,"The story of T.E. Lawrence, the English officer who successfully united and led the diverse, often warring, Arab tribes during World War I in order to fight the Turks.",100,David Lean,Peter O'Toole,Alec Guinness,Anthony Quinn,Jack Hawkins,268085,"44,824,144"
+Lawrence of Arabia,"https://m.media-amazon.com/images/M/MV5BYWY5ZjhjNGYtZmI2Ny00ODM0LWFkNzgtZmI1YzA2N2MxMzA0XkEyXkFqcGdeQXVyNjUwNzk3NDc@._V1_UY98_CR0,0,67,98_AL_.jpg",1962,U,228 min,"Adventure, Biography, Drama",8.3,"The story of T.E. Lawrence, the English officer who successfully united and led the diverse, often warring, Arab tribes during World War I in order to fight the Turks.",100.0,David Lean,Peter O'Toole,Alec Guinness,Anthony Quinn,Jack Hawkins,268085.0,"44,824,144"
 Limehouse Golem,,,,,,,,,,,,,,,
-Little Miss Sunshine,"https://m.media-amazon.com/images/M/MV5BMTgzNTgzODU0NV5BMl5BanBnXkFtZTcwMjEyMjMzMQ@@._V1_UX67_CR0,0,67,98_AL_.jpg",2006,UA,101 min,"Comedy, Drama",7.8,A family determined to get their young daughter into the finals of a beauty pageant take a cross-country trip in their VW bus.,80,Jonathan Dayton,Valerie Faris,Steve Carell,Toni Collette,Greg Kinnear,439856,"59,891,098"
+Little Miss Sunshine,"https://m.media-amazon.com/images/M/MV5BMTgzNTgzODU0NV5BMl5BanBnXkFtZTcwMjEyMjMzMQ@@._V1_UX67_CR0,0,67,98_AL_.jpg",2006,UA,101 min,"Comedy, Drama",7.8,A family determined to get their young daughter into the finals of a beauty pageant take a cross-country trip in their VW bus.,80.0,Jonathan Dayton,Valerie Faris,Steve Carell,Toni Collette,Greg Kinnear,439856.0,"59,891,098"
 Lord of the Rings: The Return of the King,,,,,,,,,,,,,,,
 Lord of the Rings: The Two Towers,,,,,,,,,,,,,,,
 Lord of the Rings: The fellowship of the Ring,,,,,,,,,,,,,,,
@@ -142,7 +142,7 @@ Nightmare Alley,,,,,,,,,,,,,,,
 Ninth Gate,,,,,,,,,,,,,,,
 No Reservations,,,,,,,,,,,,,,,
 Oblong Box,,,,,,,,,,,,,,,
-Office Space,"https://m.media-amazon.com/images/M/MV5BOTA5MzQ3MzI1NV5BMl5BanBnXkFtZTgwNTcxNTYxMTE@._V1_UX67_CR0,0,67,98_AL_.jpg",1999,R,89 min,Comedy,7.7,Three company workers who hate their jobs decide to rebel against their greedy boss.,68,Mike Judge,Ron Livingston,Jennifer Aniston,David Herman,Ajay Naidu,241575,"10,824,921"
+Office Space,"https://m.media-amazon.com/images/M/MV5BOTA5MzQ3MzI1NV5BMl5BanBnXkFtZTgwNTcxNTYxMTE@._V1_UX67_CR0,0,67,98_AL_.jpg",1999,R,89 min,Comedy,7.7,Three company workers who hate their jobs decide to rebel against their greedy boss.,68.0,Mike Judge,Ron Livingston,Jennifer Aniston,David Herman,Ajay Naidu,241575.0,"10,824,921"
 Omen,,,,,,,,,,,,,,,
 Omen II,,,,,,,,,,,,,,,
 Omen III,,,,,,,,,,,,,,,
@@ -156,30 +156,30 @@ Pirates of the Caribbean,,,,,,,,,,,,,,,
 Pitch Black,,,,,,,,,,,,,,,
 Postman Always Rings Twice,,,,,,,,,,,,,,,
 Prince of Persia,,,,,,,,,,,,,,,
-Ratatouille,"https://m.media-amazon.com/images/M/MV5BMTMzODU0NTkxMF5BMl5BanBnXkFtZTcwMjQ4MzMzMw@@._V1_UX67_CR0,0,67,98_AL_.jpg",2007,U,111 min,"Animation, Adventure, Comedy",8,A rat who can cook makes an unusual alliance with a young kitchen worker at a famous restaurant.,96,Brad Bird,Jan Pinkava,Brad Garrett,Lou Romano,Patton Oswalt,641645,"206,445,654"
+Ratatouille,"https://m.media-amazon.com/images/M/MV5BMTMzODU0NTkxMF5BMl5BanBnXkFtZTcwMjQ4MzMzMw@@._V1_UX67_CR0,0,67,98_AL_.jpg",2007,U,111 min,"Animation, Adventure, Comedy",8.0,A rat who can cook makes an unusual alliance with a young kitchen worker at a famous restaurant.,96.0,Brad Bird,Jan Pinkava,Brad Garrett,Lou Romano,Patton Oswalt,641645.0,"206,445,654"
 Raven,,,,,,,,,,,,,,,
 Reader,,,,,,,,,,,,,,,
-Rear Window,"https://m.media-amazon.com/images/M/MV5BNGUxYWM3M2MtMGM3Mi00ZmRiLWE0NGQtZjE5ODI2OTJhNTU0XkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_UX67_CR0,0,67,98_AL_.jpg",1954,U,112 min,"Mystery, Thriller",8.4,A wheelchair-bound photographer spies on his neighbors from his apartment window and becomes convinced one of them has committed murder.,100,Alfred Hitchcock,James Stewart,Grace Kelly,Wendell Corey,Thelma Ritter,444074,"36,764,313"
-Rebecca,"https://m.media-amazon.com/images/M/MV5BYTcxYWExOTMtMWFmYy00ZjgzLWI0YjktNWEzYzJkZTg0NDdmL2ltYWdlXkEyXkFqcGdeQXVyNjc1NTYyMjg@._V1_UY98_CR0,0,67,98_AL_.jpg",1940,Approved,130 min,"Drama, Mystery, Romance",8.1,A self-conscious woman juggles adjusting to her new role as an aristocrat's wife and avoiding being intimidated by his first wife's spectral presence.,86,Alfred Hitchcock,Laurence Olivier,Joan Fontaine,George Sanders,Judith Anderson,123942,"4,360,000"
+Rear Window,"https://m.media-amazon.com/images/M/MV5BNGUxYWM3M2MtMGM3Mi00ZmRiLWE0NGQtZjE5ODI2OTJhNTU0XkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_UX67_CR0,0,67,98_AL_.jpg",1954,U,112 min,"Mystery, Thriller",8.4,A wheelchair-bound photographer spies on his neighbors from his apartment window and becomes convinced one of them has committed murder.,100.0,Alfred Hitchcock,James Stewart,Grace Kelly,Wendell Corey,Thelma Ritter,444074.0,"36,764,313"
+Rebecca,"https://m.media-amazon.com/images/M/MV5BYTcxYWExOTMtMWFmYy00ZjgzLWI0YjktNWEzYzJkZTg0NDdmL2ltYWdlXkEyXkFqcGdeQXVyNjc1NTYyMjg@._V1_UY98_CR0,0,67,98_AL_.jpg",1940,Approved,130 min,"Drama, Mystery, Romance",8.1,A self-conscious woman juggles adjusting to her new role as an aristocrat's wife and avoiding being intimidated by his first wife's spectral presence.,86.0,Alfred Hitchcock,Laurence Olivier,Joan Fontaine,George Sanders,Judith Anderson,123942.0,"4,360,000"
 Red Dog,,,,,,,,,,,,,,,
 Reign of Fire,,,,,,,,,,,,,,,
 Revenant,,,,,,,,,,,,,,,
 Right Stuff,,,,,,,,,,,,,,,
 Road,,,,,,,,,,,,,,,
-Rush,"https://m.media-amazon.com/images/M/MV5BOWEwODJmZDItYTNmZC00OGM4LThlNDktOTQzZjIzMGQxODA4XkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_UX67_CR0,0,67,98_AL_.jpg",2013,UA,123 min,"Action, Biography, Drama",8.1,The merciless 1970s rivalry between Formula One rivals James Hunt and Niki Lauda.,74,Ron Howard,Daniel Brühl,Chris Hemsworth,Olivia Wilde,Alexandra Maria Lara,432811,"26,947,624"
+Rush,"https://m.media-amazon.com/images/M/MV5BOWEwODJmZDItYTNmZC00OGM4LThlNDktOTQzZjIzMGQxODA4XkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_UX67_CR0,0,67,98_AL_.jpg",2013,UA,123 min,"Action, Biography, Drama",8.1,The merciless 1970s rivalry between Formula One rivals James Hunt and Niki Lauda.,74.0,Ron Howard,Daniel Brühl,Chris Hemsworth,Olivia Wilde,Alexandra Maria Lara,432811.0,"26,947,624"
 Saint,,,,,,,,,,,,,,,
 Saturday Night Fever,,,,,,,,,,,,,,,
-Schindler's List,"https://m.media-amazon.com/images/M/MV5BNDE4OTMxMTctNmRhYy00NWE2LTg3YzItYTk3M2UwOTU5Njg4XkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_UX67_CR0,0,67,98_AL_.jpg",1993,A,195 min,"Biography, Drama, History",8.9,"In German-occupied Poland during World War II, industrialist Oskar Schindler gradually becomes concerned for his Jewish workforce after witnessing their persecution by the Nazis.",94,Steven Spielberg,Liam Neeson,Ralph Fiennes,Ben Kingsley,Caroline Goodall,1213505,"96,898,818"
+Schindler's List,"https://m.media-amazon.com/images/M/MV5BNDE4OTMxMTctNmRhYy00NWE2LTg3YzItYTk3M2UwOTU5Njg4XkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_UX67_CR0,0,67,98_AL_.jpg",1993,A,195 min,"Biography, Drama, History",8.9,"In German-occupied Poland during World War II, industrialist Oskar Schindler gradually becomes concerned for his Jewish workforce after witnessing their persecution by the Nazis.",94.0,Steven Spielberg,Liam Neeson,Ralph Fiennes,Ben Kingsley,Caroline Goodall,1213505.0,"96,898,818"
 Secondhand Lions,,,,,,,,,,,,,,,
 Seven Years in Tibet,,,,,,,,,,,,,,,
 Seventh Voyage of Sinbad,,,,,,,,,,,,,,,
 Shadow of the Vampire,,,,,,,,,,,,,,,
 Sheep Detectives,,,,,,,,,,,,,,,
 Shining,,,,,,,,,,,,,,,
-Shutter Island,"https://m.media-amazon.com/images/M/MV5BYzhiNDkyNzktNTZmYS00ZTBkLTk2MDAtM2U0YjU1MzgxZjgzXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_UX67_CR0,0,67,98_AL_.jpg",2010,A,138 min,"Mystery, Thriller",8.2,"In 1954, a U.S. Marshal investigates the disappearance of a murderer who escaped from a hospital for the criminally insane.",63,Martin Scorsese,Leonardo DiCaprio,Emily Mortimer,Mark Ruffalo,Ben Kingsley,1129894,"128,012,934"
+Shutter Island,"https://m.media-amazon.com/images/M/MV5BYzhiNDkyNzktNTZmYS00ZTBkLTk2MDAtM2U0YjU1MzgxZjgzXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_UX67_CR0,0,67,98_AL_.jpg",2010,A,138 min,"Mystery, Thriller",8.2,"In 1954, a U.S. Marshal investigates the disappearance of a murderer who escaped from a hospital for the criminally insane.",63.0,Martin Scorsese,Leonardo DiCaprio,Emily Mortimer,Mark Ruffalo,Ben Kingsley,1129894.0,"128,012,934"
 Sideways,,,,,,,,,,,,,,,
 Simpsons Movie,,,,,,,,,,,,,,,
 Sleepy Hollow,,,,,,,,,,,,,,,
 Smilla's Sense of Snow,,,,,,,,,,,,,,,
-Snatch,"https://m.media-amazon.com/images/M/MV5BMTA2NDYxOGYtYjU1Mi00Y2QzLTgxMTQtMWI1MGI0ZGQ5MmU4XkEyXkFqcGdeQXVyNDk3NzU2MTQ@._V1_UY98_CR0,0,67,98_AL_.jpg",2000,UA,104 min,"Comedy, Crime",8.3,"Unscrupulous boxing promoters, violent bookmakers, a Russian gangster, incompetent amateur robbers and supposedly Jewish jewelers fight to track down a priceless stolen diamond.",55,Guy Ritchie,Jason Statham,Brad Pitt,Benicio Del Toro,Dennis Farina,782001,"30,328,156"
+Snatch,"https://m.media-amazon.com/images/M/MV5BMTA2NDYxOGYtYjU1Mi00Y2QzLTgxMTQtMWI1MGI0ZGQ5MmU4XkEyXkFqcGdeQXVyNDk3NzU2MTQ@._V1_UY98_CR0,0,67,98_AL_.jpg",2000,UA,104 min,"Comedy, Crime",8.3,"Unscrupulous boxing promoters, violent bookmakers, a Russian gangster, incompetent amateur robbers and supposedly Jewish jewelers fight to track down a priceless stolen diamond.",55.0,Guy Ritchie,Jason Statham,Brad Pitt,Benicio Del Toro,Dennis Farina,782001.0,"30,328,156"
 Snow White,,,,,,,,,,,,,,,

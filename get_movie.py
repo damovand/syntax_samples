@@ -1,3 +1,4 @@
+from flask import jsonify
 from omdbapi.movie_search import GetMovie
 from pprint import pprint
 import requests
@@ -6,8 +7,8 @@ import os
 
 load_dotenv()
 
-api_key = 'd0f193ac'
-
+api_key = os.getenv("OMDB_API_KEY")
+print(api_key)
 # Function to test OMDb API response
 def omdb_movie_details(api_key, movie_title, movie_year):
     """
@@ -35,26 +36,25 @@ def omdb_movie_details(api_key, movie_title, movie_year):
         # Check if API returned an error
         if data.get("Response") == "False":
             print(f"❌ API Error: {data.get('Error')}")
-            return False
-
+            return data
         # Validate expected fields
         expected_fields = ["Title", "Year", "Genre", "Director", "Actors", "imdbRating"]
         missing_fields = [field for field in expected_fields if field not in data]
 
         if missing_fields:
             print(f"❌ Missing fields in response: {missing_fields}")
-            return False
+            return data
 
         # Print validated data
         print("✅ API call successful and data validated:")
         for field in expected_fields:
             print(f"{field}: {data[field]}")
 
-        return True
+        return data
 
     except requests.exceptions.RequestException as e:
         print(f"❌ Request failed: {e}")
-        return False
+        return jsonify({"error": str(e)})
 
 
 if __name__ == "__main__":
