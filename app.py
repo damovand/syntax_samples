@@ -27,8 +27,16 @@ else:
     Movies_merged.to_csv('merged_Movies_Detailed.csv', encoding='utf-8', index=False)
     My_Movies_Detailed.to_csv('my_Movies_Detailed.csv', encoding='utf-8', index=False)
     #print(Movies_merged.head(5))
+
+    movie_details_missing = My_Movies_Detailed[(My_Movies_Detailed["Released_Year"].isna()) &
+    (My_Movies_Detailed["Genre"].isna()) &
+    (My_Movies_Detailed["Star1"].isna()) &
+    (My_Movies_Detailed["Director"].isna()) ]
+
 print(" ==== Final ===")
 print(My_Movies_Detailed[['Title', 'Released_Year']].head(5))
+
+movie_details_missing.to_csv('movie_details_missing.csv', encoding='utf-8', index=False)
 
 # Convert DataFrame to list of dicts for Jinja2
 

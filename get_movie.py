@@ -6,17 +6,18 @@ import os
 
 load_dotenv()
 
-api_key = '3dfc9c89'
+api_key = 'd0f193ac'
 
 # Function to test OMDb API response
-def omdb_movie_details(api_key, movie_title):
+def omdb_movie_details(api_key, movie_title, movie_year):
     """
     Calls the OMDb API for a given movie title and validates the returned data.
     """
     base_url = "http://www.omdbapi.com/"
     params = {
         "t": movie_title,  # Search by title
-        "apikey": api_key
+        "apikey": api_key,
+        "y": movie_year
     }
 
     try:
@@ -59,8 +60,10 @@ def omdb_movie_details(api_key, movie_title):
 if __name__ == "__main__":
     # Replace with your OMDb API key
     API_KEY = api_key
-    #MOVIE_TITLE = "Inception"
-    MOVIE_TITLE = "Casanova"
+    MOVIE_TITLE = "Exorcist"
+    MOVIE_YEAR = "1973"
+    #MOVIE_TITLE = "A Haunting in Venice"
+    #MOVIE_TITLE = "A.I. Artificial Intelligence"
     # Run the test
-    omdb_movie_details(API_KEY, MOVIE_TITLE)
+    omdb_movie_details(API_KEY, MOVIE_TITLE, MOVIE_YEAR)
 

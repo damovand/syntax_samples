@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Popup on TD Click</title>
+<style>
+    table {
+        border-collapse: collapse;
+        width: 50%;
+    }
+    td {
+        border: 1px solid #333;
+        padding: 10px;
+        cursor: pointer;
+        text-align: center;
+    }
+    td:hover {
+        background-color: #f0f0f0;
+    }
+</style>
+</head>
+<body>
+
+<h2>Click a table cell to open a popup</h2>
+
+<table>
+    <tr>
+        <td onclick="openPopup('Hello from cell 1!')">Cell 1</td>
+        <td onclick="openPopup('Hello from cell 2!')">Cell 2</td>
+    </tr>
+    <tr>
+        <td onclick="openPopup('Hello from cell 3!')">Cell 3</td>
+        <td onclick="openPopup('Hello from cell 4!')">Cell 4</td>
+    </tr>
+</table>
+
+<script>
+/**
+ * Opens a new popup window with custom HTML content.
+ * @param {string} message - The message to display in the popup.
+ */
+function openPopup(message) {
+    try {
+        // Open a new window with specified dimensions
+        let popup = window.open("", "popupWindow", "width=400,height=300");
+
+        if (!popup) {
+            alert("Popup blocked! Please allow popups for this site.");
+            return;
+        }
+
+        // Write HTML content into the popup
+        popup.document.open();
+        popup.document.write(`
+            <!DOCTYPE html>
+            <html lang="en">
+            <head>
+                <meta charset="UTF-8">
+                <title>Popup</title>
+                <style>
+                    body { font-family: Arial, sans-serif; padding: 20px; }
+                    h1 { color: #333; }
+                    button { padding: 8px 12px; }
+                </style>
+            </head>
+            <body>
+                <h1>${message}</h1>
+                <button onclick="window.close()">Close</button>
+            </body>
+            </html>
+        `);
+        popup.document.close();
+    } catch (err) {
+        console.error("Error opening popup:", err);
+        alert("An error occurred while opening the popup.");
+    }
+}
+</script>
+</body>
+</html>

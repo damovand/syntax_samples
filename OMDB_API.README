@@ -1,0 +1,62 @@
+OMDb API supports parameters like:
+
+apikey – Required (your API key)
+t – Title (exact match)
+s – Search term (partial match, returns multiple results)
+i – IMDb ID
+y – Year
+plot – short or full
+type – movie, series, or episode
+page – Pagination (1–100)
+Example 1 – Search by title keyword
+Bash
+
+Copy code
+curl "http://www.omdbapi.com/?apikey=YOUR_API_KEY&s=batman&type=movie&page=1"
+Explanation:
+
+s=batman ? Search for movies containing “batman”
+type=movie ? Only movies
+page=1 ? First page of results
+Example 2 – Get full details by exact title
+Bash
+
+Copy code
+curl "http://www.omdbapi.com/?apikey=YOUR_API_KEY&t=Inception&y=2010&plot=full"
+Explanation:
+
+t=Inception ? Exact match title
+y=2010 ? Year filter
+plot=full ? Full plot instead of short
+Example 3 – Get details by IMDb ID
+Bash
+
+Copy code
+curl "http://www.omdbapi.com/?apikey=YOUR_API_KEY&i=tt1375666"
+Explanation:
+
+i=tt1375666 ? IMDb ID for Inception
+Example JSON Response (search)
+Json
+
+Copy code
+{
+  "Search": [
+    {
+      "Title": "Batman Begins",
+      "Year": "2005",
+      "imdbID": "tt0372784",
+      "Type": "movie",
+      "Poster": "https://..."
+    },
+    {
+      "Title": "Batman",
+      "Year": "1989",
+      "imdbID": "tt0096895",
+      "Type": "movie",
+      "Poster": "https://..."
+    }
+  ],
+  "totalResults": "123",
+  "Response": "True"
+}
