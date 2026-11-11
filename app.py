@@ -67,19 +67,43 @@ def index():
 
     return render_template("index.html", columns=show_columns, rows=table_data)
 
-@app.route("/OMDBAPI")
+@app.route("/get_OMDB", methods=["GET"])
 def omdb_details():
     API_KEY = api_key
-    MOVIE_TITLE = "Exorcist"
-    MOVIE_YEAR = "1973"
+    '''
+    mask = (My_Movies_Detailed['Title'] == 'foo') & (My_Movies_Detailed['Released_Year'] == 'one')
+    filtered = My_Movies_Detailed.loc[mask]  # label-based selection
+    row_index = My_Movies_Detailed.index[mask].tolist()
+    print(row_index[0])
+    
+    '''
+    # Extract parameters safely
+    param1 = request.args.get('title', default=None, type=str)  # default=None if missing
+    param2 = request.args.get('year', default=None, type=str)     # default=0 if missing
+
+    # Handle missing parameters
+    if param1 is None:
+        return {"error": "param1 is required"}, 400
+    
+    MOVIE_TITLE = param1
+    MOVIE_YEAR = param2
+    print("----- look for movie:  ", MOVIE_TITLE, "  AND YEAR ",MOVIE_YEAR)
     #MOVIE_TITLE = "A Haunting in Venice"
     #MOVIE_TITLE = "A.I. Artificial Intelligence"
     # Run the test
     response = get_movie.omdb_movie_details(API_KEY, MOVIE_TITLE, MOVIE_YEAR)
-    print(" ================ Returned to the main program ==============")
+    print(" == Done! ==============")
     return response
     
-
+@app.route("/omdb_bulk_update", methods=["POST"])
+def omdb_bulk_update():
+    try:
+        My_Movies_Detailed = pd.read_csv('data/my_Movies_Detailed.csv')
+    except FileNotFoundError:
+        merge_movie_data()
+    My_Movies_Detailed = pd.read_csv('data/my_Movies_Detailed.csv')
+    
+    return redirect(url_for("index"))
 
 @app.route("/add")
 def add_item():
