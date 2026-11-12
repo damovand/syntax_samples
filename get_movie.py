@@ -45,7 +45,7 @@ def omdb_movie_details(api_key, movie_title, movie_year):
             print(f"❌ Missing fields in response: {missing_fields}")
             return data
         # Print validated data
-        print(f"✅ API call successful and data validated for {movie_title}:")
+        print(f"✅ API call successful and data validated for {movie_title}:  And Year {movie_year}")
         #for field in expected_fields:
         #    print(f"{field}: {data[field]}")
 
@@ -57,13 +57,28 @@ def omdb_movie_details(api_key, movie_title, movie_year):
 
 def bulk_update_movie(movie_df):
 
-    for idx, row in movie_df[movie_df['Genre'].isna()].iterrows():
+    #for idx, row in movie_df[movie_df['Genre'].isna()].iterrows():
+    for idx, row in movie_df.iterrows():
         movie_title = movie_df.at[idx, 'Title']
         movie_year = movie_df.at[idx,'Released_Year']
-        print (" ===== Look For: ",idx, " row is  ",movie_title, "/n  End Row ===")
+        print (" ===== Look For: ",idx, " Title  ",movie_title, " AND Year  <",movie_year, " >End Row ===")
         
         new_value = omdb_movie_details(api_key, movie_title, movie_year)
-        
+            
+        if isinstance(new_value, dict):
+            try:
+            #    movie_df.at[idx, 'Released_Year']  = new_value["Year"]
+                movie_df.at[idx, 'Overview'] = new_value["Plot"]
+                movie_df.at[idx, 'Star1']  = new_value["Actors"]
+                movie_df.at[idx, 'Director']  = new_value["Director"]
+                movie_df.at[idx, 'Genre']  = new_value["Genre"]
+                movie_df.at[idx, 'Poster_Link']  = new_value["Poster"]
+                movie_df.at[idx, 'IMDB_Rating']  = new_value["imdbRating"]
+            except KeyError as e:
+                print(f"❌ Missing key in response: {e} movie_title: {movie_title}, movie_year: {movie_year}    ")
+            
+        elif isinstance(new_value, list):
+            print (" Data Returned  is list")
     if new_value:
         movie_df.to_csv('data/my_Movies_Details_Completed.csv', encoding='utf-8', index=False)
     return new_value
