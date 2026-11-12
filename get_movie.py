@@ -44,17 +44,29 @@ def omdb_movie_details(api_key, movie_title, movie_year):
         if missing_fields:
             print(f"❌ Missing fields in response: {missing_fields}")
             return data
-
         # Print validated data
-        print("✅ API call successful and data validated:")
-        for field in expected_fields:
-            print(f"{field}: {data[field]}")
+        print(f"✅ API call successful and data validated for {movie_title}:")
+        #for field in expected_fields:
+        #    print(f"{field}: {data[field]}")
 
         return data
 
     except requests.exceptions.RequestException as e:
         print(f"❌ Request failed: {e}")
         return jsonify({"error": str(e)})
+
+def bulk_update_movie(movie_df):
+
+    for idx, row in movie_df[movie_df['Genre'].isna()].iterrows():
+        movie_title = movie_df.at[idx, 'Title']
+        movie_year = movie_df.at[idx,'Released_Year']
+        print (" ===== Look For: ",idx, " row is  ",movie_title, "/n  End Row ===")
+        
+        new_value = omdb_movie_details(api_key, movie_title, movie_year)
+        
+    if new_value:
+        movie_df.to_csv('data/my_Movies_Details_Completed.csv', encoding='utf-8', index=False)
+    return new_value
 
 
 if __name__ == "__main__":

@@ -67,7 +67,7 @@ def index():
 
     return render_template("index.html", columns=show_columns, rows=table_data)
 
-@app.route("/get_OMDB", methods=["GET"])
+@app.route("/omdb_details", methods=["GET"])
 def omdb_details():
     API_KEY = api_key
     '''
@@ -95,13 +95,14 @@ def omdb_details():
     print(" == Done! ==============")
     return response
     
-@app.route("/omdb_bulk_update", methods=["POST"])
+@app.route("/omdb_bulk_update")
 def omdb_bulk_update():
     try:
         My_Movies_Detailed = pd.read_csv('data/my_Movies_Detailed.csv')
     except FileNotFoundError:
         merge_movie_data()
-    My_Movies_Detailed = pd.read_csv('data/my_Movies_Detailed.csv')
+    
+    get_movie.bulk_update_movie(My_Movies_Detailed)
     
     return redirect(url_for("index"))
 
