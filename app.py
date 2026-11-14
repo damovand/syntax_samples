@@ -82,27 +82,35 @@ def merge_movie_data():
     
     print(Merged_Filtered[['Title', 'Released_Year']].head(5))
 
-try:
-    My_Movies_Detailed = pd.read_csv(
-        'data/my_Movies_Detailed.csv',
-        dtype={"IMDB_Rating": "string"})
-except FileNotFoundError as e:
-    print(f"==== File not found: {e}, Re-merging movie data")
-    merge_movie_data()
-    My_Movies_Detailed = pd.read_csv(
-        'data/my_Movies_Detailed.csv',
-        dtype={"IMDB_Rating": "string"})
-
-# Convert DataFrame to list of dicts for Jinja2
-
 @app.route("/")
 def index():
+
+    try:
+        My_Movies_Detailed = pd.read_csv(
+        'data/my_Movies_Details_Completed.csv',
+        dtype={"IMDB_Rating": "string"})
+    except FileNotFoundError as e:
+        print(f"==== Full Movie Details are not available: {e}, Access incomplete movie data")
+        try:
+            My_Movies_Detailed = pd.read_csv(
+                'data/my_Movies_Detailed.csv',
+                dtype={"IMDB_Rating": "string"})
+        except FileNotFoundError as e:
+            print(f"==== Movie Data not found: {e}, Re-merging movie data")
+            merge_movie_data()
+            My_Movies_Detailed = pd.read_csv(
+                'data/my_Movies_Detailed.csv',
+                dtype={"IMDB_Rating": "string"})
+
     # Convert DataFrame to list of dicts for Jinja2
-    selected_columns = ['Title', 'Released_Year']
+    selected_columns = ['Title', 'Released_Year','Star1']
+
     info_columns = My_Movies_Detailed[selected_columns]
     show_columns = info_columns.columns.tolist()
+    
     table_data = info_columns.to_dict(orient="records")
-
+    print ("===== What is the type of table_data: ", type(table_data))
+    print(table_data)
     return render_template("index.html", columns=show_columns, rows=table_data)
 
 @app.route("/omdb_details", methods=["GET"])

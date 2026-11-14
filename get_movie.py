@@ -67,7 +67,7 @@ def bulk_update_movie(movie_df):
             
         if isinstance(new_value, dict):
             try:
-            #    movie_df.at[idx, 'Released_Year']  = new_value["Year"]
+                movie_df.at[idx, 'Released_Year']  = new_value["Year"]
                 movie_df.at[idx, 'Overview'] = new_value["Plot"]
                 movie_df.at[idx, 'Star1']  = new_value["Actors"]
                 movie_df.at[idx, 'Director']  = new_value["Director"]
