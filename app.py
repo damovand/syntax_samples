@@ -9,10 +9,11 @@ from dotenv import load_dotenv
 from flask import Flask, render_template, request, redirect, url_for, jsonify
 import csv
 import os
-import get_movie
+import get_movie as get_movie
+
 app = Flask(__name__)
 load_dotenv()
-api_key = os.getenv("OMDB_API_KEY")
+#api_key = os.getenv("OMDB_API_KEY")
 
 # Sample data (replace with DB query or file read)
 # Example DataFrame
@@ -77,7 +78,7 @@ def merge_movie_data():
     
     #Movies_merged.to_csv('merged_Movies_Detailed.csv', encoding='utf-8', index=False)
     # save the filtered DataFrame to a CSV file for future use in jupyter notebook
-    Merged_Filtered.to_csv('data/my_Movies_Detailed.csv', encoding='utf-8', index=False)
+    Merged_Filtered.to_csv('data/My_Movies_Detailed.csv', encoding='utf-8', index=False)
     #print(Movies_merged.head(5))
     
     print(Merged_Filtered[['Title', 'Released_Year']].head(5))
@@ -87,19 +88,19 @@ def index():
 
     try:
         My_Movies_Detailed = pd.read_csv(
-        'data/my_Movies_Details_Completed.csv',
+        'data/My_Movies_Details_Completed.csv',
         dtype={"IMDB_Rating": "string"})
     except FileNotFoundError as e:
         print(f"==== Full Movie Details are not available: {e}, Access incomplete movie data")
         try:
             My_Movies_Detailed = pd.read_csv(
-                'data/my_Movies_Detailed.csv',
+                'data/My_Movies_Detailed.csv',
                 dtype={"IMDB_Rating": "string"})
         except FileNotFoundError as e:
             print(f"==== Movie Data not found: {e}, Re-merging movie data")
             merge_movie_data()
             My_Movies_Detailed = pd.read_csv(
-                'data/my_Movies_Detailed.csv',
+                'data/My_Movies_Detailed.csv',
                 dtype={"IMDB_Rating": "string"})
 
     # Convert DataFrame to list of dicts for Jinja2
@@ -109,18 +110,17 @@ def index():
     show_columns = info_columns.columns.tolist()
     
     table_data = info_columns.to_dict(orient="records")
-    print ("===== What is the type of table_data: ", type(table_data))
-    print(table_data)
+    #print ("===== What is the type of table_data: ", type(table_data))
+    #print(table_data)
     return render_template("index.html", columns=show_columns, rows=table_data)
 
 @app.route("/omdb_details", methods=["GET"])
 def omdb_details():
-    API_KEY = api_key
-    
+    api_key = os.getenv("OMDB_API_KEY")
     # Extract parameters safely
     param1 = request.args.get('title', default=None, type=str)  # default=None if missing
     param2 = request.args.get('year', default=None, type=str)     # default=0 if missing
-
+    #print("========== API Key: ", api_key)
     # Handle missing parameters
     if param1 is None:
         return {"error": "param1 is required"}, 400
@@ -131,21 +131,39 @@ def omdb_details():
     #MOVIE_TITLE = "A Haunting in Venice"
     #MOVIE_TITLE = "A.I. Artificial Intelligence"
     # Run the test
-    response = get_movie.omdb_movie_details(API_KEY, MOVIE_TITLE, MOVIE_YEAR)
+    response = get_movie.omdb_movie_details(api_key, MOVIE_TITLE, MOVIE_YEAR)
     print(" == Done! ==============")
     return response
-    
+
+@app.route("/omdb_bulk_load")
+def omdb_bulk_load():
+
+    file_path = 'data/My_Movies_Detailed.csv'  # Replace with your file path
+
+    # Check if file exists before deleting
+    if os.path.isfile(file_path):
+        try:
+            os.remove(file_path)
+            print(f"File '{file_path}' deleted successfully.")
+        except OSError as e:
+            print(f"Error deleting file: {e}")
+    else:
+        print(f"File '{file_path}' does not exist.")
+    merge_movie_data()
+    return redirect(url_for("omdb_bulk_update"))
+
+
 @app.route("/omdb_bulk_update")
 def omdb_bulk_update():
     try:
         My_Movies_Detailed = pd.read_csv(
-            'data/my_Movies_Detailed.csv',
+            'data/My_Movies_Detailed.csv',
             dtype={"IMDB_Rating": "string"})
     except FileNotFoundError as e:
         print(f"File not found: {e}, Re-merging movie data")
         merge_movie_data()
         My_Movies_Detailed = pd.read_csv(
-            'data/my_Movies_Detailed.csv',
+            'data/My_Movies_Detailed.csv',
             dtype={"IMDB_Rating": "string"})
     
     get_movie.bulk_update_movie(My_Movies_Detailed)
@@ -170,4 +188,4 @@ def bulk_load():
     return redirect(url_for("index"))
 
 if __name__ == "__main__":
-    app.run(host='0.0.0.0', port=8040, debug=True)
+    app.run(debug=True, host="0.0.0.0", port=8040)  # Use port 8088 to avoid conflicts

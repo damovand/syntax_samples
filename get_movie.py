@@ -36,16 +36,16 @@ def omdb_movie_details(api_key, movie_title, movie_year):
         # Check if API returned an error
         if data.get("Response") == "False":
             print(f"❌ API Error: {data.get('Error')}")
-            return data
+            return response.json()
         # Validate expected fields
         expected_fields = ["Title", "Year", "Genre", "Director", "Actors", "imdbRating"]
         missing_fields = [field for field in expected_fields if field not in data]
 
         if missing_fields:
             print(f"❌ Missing fields in response: {missing_fields}")
-            return data
+            return response.json()
         # Print validated data
-        print(f"✅ API call successful and data validated for {movie_title}:  And Year {movie_year}")
+        print(f"✅ API call successful and data validated for {movie_title}:  And Year {movie_year} And Actors {data.get('Actors')}")
         #for field in expected_fields:
         #    print(f"{field}: {data[field]}")
 
@@ -61,7 +61,7 @@ def bulk_update_movie(movie_df):
     for idx, row in movie_df.iterrows():
         movie_title = movie_df.at[idx, 'Title']
         movie_year = movie_df.at[idx,'Released_Year']
-        print (" ===== Look For: ",idx, " Title  ",movie_title, " AND Year  <",movie_year, " >End Row ===")
+        #print (" ===== Look For: ",idx, " Title  ",movie_title, " AND Year  <",movie_year, " >End Row ===")
         
         new_value = omdb_movie_details(api_key, movie_title, movie_year)
             
